@@ -6,8 +6,7 @@ version: 0.6.3
 repository: https://github.com/Alejandro-Gon/wakelock/tree/main/wakelock
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: '>=2.0.0'
+  sdk: ^3.3.0
 
 dependencies:
   flutter:
@@ -40,8 +39,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.4
-  pigeon: ^1.0.2 # flutter pub run pigeon --input "pigeons/messages.dart"
+  flutter_lints: ^3.0.1
+  pigeon: ^17.1.3 # flutter pub run pigeon --input "pigeons/messages.dart"
 
 flutter:
   plugin:
